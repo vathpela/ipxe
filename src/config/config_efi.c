@@ -37,6 +37,9 @@ PROVIDE_REQUIRING_SYMBOL();
  *
  */
 
+#ifdef IMAGE_EFISTUB
+REQUIRE_OBJECT ( efistub );
+#endif
 #ifdef CONSOLE_EFI
 REQUIRE_OBJECT ( efi_console );
 #endif

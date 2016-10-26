@@ -348,6 +348,14 @@ $flag_table = array (
 	   "cfgsec" => "general"
 	   ),
 
+	"IMAGE_EFISTUB"
+	=> array (
+	   "flag" => "IMAGE_EFISTUB",
+	   "type" => "on/off",
+	   "value" => "on",
+	   "cfgsec" => "general"
+	   ),
+
 	"IMAGE_BZIMAGE"
 	=> array (
 	   "flag" => "IMAGE_BZIMAGE",

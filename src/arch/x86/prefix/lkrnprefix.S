@@ -58,7 +58,7 @@ jump:
 header:
 	.byte	'H', 'd', 'r', 'S'
 version:
-	.word	0x0207 /* 2.07 */
+	.word	0x020c /* 2.12 */
 realmode_swtch:
 	.long	0
 start_sys:
@@ -103,6 +103,18 @@ hardware_subarch:
 	.long	0
 hardware_subarch_data:
 	.byte	0, 0, 0, 0, 0, 0, 0, 0
+payload_offset:
+	.long	0
+payload_length:
+	.long	0
+setup_data:
+	.long	0, 0
+pref_address:
+	.long	0, 0
+init_size:
+	.long	0
+handover_offset:
+	.long	0
 
 version_string:
 	.asciz	VERSION
